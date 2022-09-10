@@ -1,0 +1,17 @@
+.footer {
+
+    background-color: $dark-blue;
+
+    @include small-only {
+        font-size: small;
+    }
+
+    & ul {
+        display:flex;
+        justify-content: center;
+        padding: $gutter-double;
+    }
+
+}
+
+

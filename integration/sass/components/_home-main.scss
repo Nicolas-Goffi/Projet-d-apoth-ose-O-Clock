@@ -1,0 +1,161 @@
+.you-are {
+
+    margin-top: $gutter-double;
+        &__container {
+            @include large {
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+    
+    &__organiser {
+
+        height: 250px;
+
+        @include large {
+            width: 40%;
+            font-size: x-large;
+            padding: 3%;
+            height: 450px;
+
+            li {
+                   
+                a {
+                font-size: x-large;
+                } 
+            }
+
+            &:hover { 
+                width: 42%;
+                height: 465px;
+                box-shadow: 8px 8px 10px black;
+            }
+
+        }
+
+        background-image: url(../img/mix-table.jpeg);
+        background-size: cover;
+      
+        margin-top: $gutter-double;
+        margin-bottom: $gutter-double;
+
+        border: 1px solid $dark-blue;
+        border-radius: 5%;
+
+        h2 {
+            margin-bottom: 18%;
+            margin-top: 5%;
+            font-size: x-large;
+            text-shadow: 2px 2px black;
+        }
+        
+        padding: 10%;
+
+        li {
+            margin-top: 10%;
+        }
+
+
+        li {
+            position: relative;
+
+            a {
+                position: absolute;
+                top: 2%;
+            }
+        }
+
+        a { 
+            margin-left: 15px;
+            text-shadow: 2px 2px black;
+            font-size: large;
+        }
+    }
+
+    &__band {
+
+        height: 250px;
+
+        @include large {
+           
+            width: 40%;
+            font-size: x-large;
+            padding: 3%;
+            height: 450px;
+
+            li {
+                   
+                a {
+                font-size: x-large;
+                } 
+            }
+            
+
+            &:hover { 
+                width: 42%;
+                height: 465px;
+                box-shadow: 8px 8px 10px black;
+            }
+        }
+
+        background-image: url(../img/band-live.jpeg);
+        background-size: cover;
+
+        margin-top: $gutter-double;
+        margin-bottom: $gutter-double;
+
+        border: 1px solid $dark-blue;
+        border-radius: 5%;
+
+        h2 {
+            margin-bottom: 18%;
+            margin-top: 5%;
+            font-size: x-large;
+            text-shadow: 2px 2px black;
+        }
+
+        padding: 10%;
+
+        li {
+            margin-top: 10%;
+        }
+
+        li {
+            position: relative;
+
+            a {
+                position: absolute;
+                top: 2%;
+            }
+        }
+
+        a { 
+            margin-left: 15px;
+            text-shadow: 2px 2px black;
+            font-size: large;
+        }
+    }
+
+}
+
+.main-intro-text p {
+    margin-top: $gutter;
+    text-align: center;
+
+    @include large {
+        margin-top: $gutter-triple;
+        margin-bottom: $gutter-double;
+        font-size: x-large;
+    }
+}
+
+.main-card {
+    margin-top: $gutter-double;
+    padding: $gutter;    
+}
+
+h2 {
+    color: $cream;
+    text-align: center;
+    font-size: $gutter;
+}

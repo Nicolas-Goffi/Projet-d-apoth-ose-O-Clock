@@ -1,0 +1,102 @@
+header {
+    height: 150px;
+    width: 100%;
+}
+
+.top-header { 
+    background-color: $dark-blue;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+
+        &__logo img {
+            width: 500px;
+            position: absolute;
+                left: 100px;
+                top: 30px;
+
+            @include small-only {
+                width: fit-content;
+                margin-top: 15px;
+                position: initial;
+            }
+
+            @include medium {
+                width: fit-content;
+                margin-top: 15px;
+                position: initial;
+            }
+        }
+    
+    @include small-only {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    @include medium {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    padding: $gutter;
+
+        &__buttons {
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+                right: 100px;
+                top: 40px;
+
+                @include small-only {
+                    position:initial;
+                }
+
+                @include medium {
+                    position:initial;
+                }
+
+            img {
+                width: 70px;
+                height: 70px;
+                
+
+                @include small-only {
+                    width: 40px;
+                    height: 40px;
+                }
+
+                @include medium {
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+        }
+}
+
+.bottom-header {
+    background-color: $light-blue;
+    color: $cream;
+    display: flex; 
+    text-align: center;
+    width: 100%;
+}
+
+a {
+    color: $cream;
+    text-decoration: none;
+}
+
+.bottom-header__left {
+    width: 80%;
+    padding: $gutter-half;    
+}
+
+.bottom-header__right {
+    width: 20%;
+    border-left: 1px solid $dark-blue;
+    padding: 1%;
+    padding: $gutter-half;
+}

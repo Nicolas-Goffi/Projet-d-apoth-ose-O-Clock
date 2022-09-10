@@ -1,0 +1,41 @@
+.single-event {
+
+    font-family: Yaldevi SemiBold;
+    margin-top: 60px;
+    padding: 25px;
+
+    p {
+        line-height: 2em;
+    }
+
+
+    h1 {
+        font-size: $gutter-double;
+        text-align: center;
+        margin-bottom: 45px;
+    }
+
+    @include large {
+        font-size: x-large;
+        height: 100%;
+        padding: 50px;
+    }
+
+}
+
+.contact-event {
+    display: flex;
+    justify-content: center;
+
+    &__button {
+    background-color: $light-blue;
+    color: $cream;
+    display: inline-block;
+    padding: $gutter;
+    border: $gutter;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0px 3px 6px black;
+    margin-bottom: 50px;
+    }
+}

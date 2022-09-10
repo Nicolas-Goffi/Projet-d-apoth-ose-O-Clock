@@ -1,0 +1,77 @@
+.contact {
+    font-family: "Yaldevi SemiBold";
+    margin-top: 80px;
+    padding: 20px;
+    font-size: 11px;
+    line-height: 25px;
+    height: 500px;
+
+    @include large {
+        font-size: 25px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__title { 
+        
+        text-align: center;
+        margin-bottom: 10%;
+        color: black;
+            @include large {
+                text-align: inherit;
+                margin-bottom: 1%;
+                font-size: 20px;
+            }
+    }
+        input {
+            width: 100%;
+            border: none;
+            background-color: #eee;
+            height: 30px;
+        }
+     
+        textarea {
+             width: 100%;
+             border: none;
+             background-color: #eee;
+             height: 150px;
+        }
+    
+        p{
+            text-align: center;
+            font-size: 20px;
+            margin-top: 5%;
+            @include large {
+                font-size: 25px;
+                margin-top:50%
+             }
+        }
+        &__contenair-form {
+            @include large {
+                width: 75%;
+                label {
+                    line-height: 60px;
+                }
+            }
+        }
+         &__button {
+     
+             display: flex;
+             justify-content: center;
+             @include large {
+                 display: flex;
+                 justify-content: end;
+              }
+     
+             input {
+                 background-color: $lighter-blue;
+                 margin-top: 20px;
+                 border: none;text-shadow: 0 0 0.2em black,0 0 0.2em black;
+                 text-shadow: 0 0 0.2em black,0 0 0.2em black;
+                 color: $cream;
+                 font-weight: bold;
+                 width: 100px;
+                 border-radius: 3px;
+            }
+    }
+}

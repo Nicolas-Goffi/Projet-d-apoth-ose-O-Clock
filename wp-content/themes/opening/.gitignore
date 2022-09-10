@@ -1,0 +1,7 @@
+.parcel-cache
+node_modules
+dist
+wp-content/themes/opening/node_modules
+wp-content/themes/opening/.parcel-cache
+wp-content/themes/opening/dist
+

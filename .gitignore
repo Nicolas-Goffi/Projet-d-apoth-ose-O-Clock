@@ -1,0 +1,15 @@
+vendor
+wordpress
+wp-config.php
+
+/wp-content/*
+!/wp-content
+/wp-content/themes/*
+!/wp-content/themes
+/wp-content/plugins/*
+!/wp-content/plugins
+
+!/wp-content/themes/opening
+!/wp-content/plugins/opening
+
+.parcel-cache

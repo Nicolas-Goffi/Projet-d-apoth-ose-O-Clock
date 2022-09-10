@@ -1,0 +1,17 @@
+{
+    "name": "oclock/opening",
+    "description": "Plugin Wordpress pour le projet Opening",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "opening\\": "."
+        }
+    },
+    "authors": [
+        {
+            "name": "Edouard-Prudhomme",
+            "email": "oclockopening@gmail.com"
+        }
+    ],
+    "require": {}
+}

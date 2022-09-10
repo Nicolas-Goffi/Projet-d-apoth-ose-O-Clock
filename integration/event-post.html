@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sass/main.scss">
+    <title>Document</title>
+</head>
+<body>
+  <header class="header">
+
+        <div class="top-header">
+            <div class="top-header__logo">
+            <img src="./img/OPENING.png" alt="">
+            </div>
+            <div class="top-header__buttons">
+                <img src="./img/Ellipse_4.png" alt=""><img src="./img/Ellipse_4.png" alt=""><img src="./img/Ellipse_4.png" alt="">
+            </div>
+        </div>
+    
+        <div class="bottom-header">
+            <div class="bottom-header__left"></div>
+            <div class="bottom-header__right"><a href="">Connexion</a></div>
+    
+        </div>
+    </header>
+
+
+    <main class="event-post">
+        <h1>CREEZ VOTRE ANNONCES</h1>
+        <div class="event-post__calendar">
+            <label for="start">Date du concert :</label>
+            <input type="date" id="start" name="concert-date"
+                value="2018-07-22"
+                min="2018-01-01" max="2018-12-31">
+        </div>
+        <form action="/action_page.php">
+            <label for="lieu">Lieu:</label><br>
+            <input type="text" id="lieu" name="lieu" value="Versailles"><br>
+            
+            
+            <label for="titre">Titre:</label><br>
+            <input type="text" id="titre" name="titre" value="la noblesse"><br><br>
+          
+            <label for="annonce">Votre annonce:</label><br>
+            <textarea id="annonce" name="annonce"
+                  rows="5" cols="33">
+             It was a dark and stormy night...
+            </textarea><br>
+            <div class="event-post__button">
+            <input  type="submit" value="Envoyer">
+            </div>
+        </form> 
+    </main>
+
+    <footer class="footer">
+        <nav>
+            <ul>
+                <li><a href="">Contact - </a></li>
+                <li> - </li>            
+                <li><a href="">Opening Team - </a></li>
+                <li> - </li>
+                <li><a href="">Mentions légales</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

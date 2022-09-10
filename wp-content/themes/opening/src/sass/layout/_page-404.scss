@@ -1,0 +1,15 @@
+.page-404 {
+    margin-top:40px;
+    display: flex;
+    justify-content: center;
+
+    &__image { 
+        width: 100%;
+        height: 100vh;
+
+        @include large {
+            width: 75%;
+            height: 100vh;
+        }
+    }
+}

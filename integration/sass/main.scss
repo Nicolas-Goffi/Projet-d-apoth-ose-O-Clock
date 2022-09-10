@@ -1,0 +1,27 @@
+@import 'reset-css';
+//abstract import
+@import './abstract/fonts';
+@import './abstract/colors';
+@import './abstract/variables';
+@import './abstract/mixins';
+//Layout import
+@import './layout/global';
+@import './layout/header';
+@import './layout/footer';
+@import './layout/al-single';
+<<<<<<< HEAD
+@import './layout/al-event-dash';
+=======
+@import './layout/event-post';
+@import './layout/legal-mention';
+@import './layout/contact';
+@import './layout/team-opening';
+@import './layout/page-404';
+>>>>>>> integrationNico
+//components
+@import './components/_band-card';
+@import './components/home-main';
+@import './components/al-contactButton';
+@import './components/event-card';
+@import './components/event-single';
+@import './components/carousel-team';

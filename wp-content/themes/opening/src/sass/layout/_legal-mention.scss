@@ -1,0 +1,20 @@
+.legal-mention {
+
+    font-family: "Yaldevi SemiBold";
+    padding: 10%;
+    font-size: 11px;
+    line-height: 150%;
+    background-color:$very-light-blue ;
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%; 
+    border-radius: 5px;
+    @include large {
+        font-size: 16px;
+        width: 65%; 
+     }
+
+}

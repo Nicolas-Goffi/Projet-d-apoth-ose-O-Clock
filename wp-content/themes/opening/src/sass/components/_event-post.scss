@@ -1,0 +1,85 @@
+.event-post {
+
+    font-family: "Yaldevi SemiBold";
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 11px;
+    @include large {
+        font-size: 16px;
+     }
+    h1{
+        text-align: center;
+        margin-bottom: 10%;
+        @include large {
+               text-align: initial;
+               margin-bottom: 1%;
+            }
+        }
+    
+    &__calendar {
+        width: 20%;
+
+        @include small-only {
+            width: 50%
+        }
+    }
+    
+    select {
+        margin: 35px 22px 20px 0;
+        color: $cream;
+        width: 175px;
+        height: 40px;
+        padding: 7px;
+        border-radius: 3px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    #music-style {
+        background-color:  $dark-blue;
+    }
+
+    #concert-lieu {
+        background-color: $light-blue;
+    }
+
+    line-height: 25px;
+
+    input {
+        width: 100%;
+        border: none;
+        background-color: #eee;
+        height: 30px;
+        }
+
+    textarea {
+            width: 100%;
+            border: none;
+            background-color: #eee;
+            height: 150px;
+    }
+
+    &__button {
+
+        display: flex;
+        justify-content: center;
+        @include large {
+            display: flex;
+            justify-content: end;
+         }
+
+        input {
+            background-color: $lighter-blue;
+            margin-top: 20px;
+            border: none;text-shadow: 0 0 0.2em black,0 0 0.2em black;
+            text-shadow: 0 0 0.2em black,0 0 0.2em black;
+            color: $cream;
+            font-weight: bold;
+            width: 100px;
+            border-radius: 3px;
+            
+        }
+        
+    }
+   
+}

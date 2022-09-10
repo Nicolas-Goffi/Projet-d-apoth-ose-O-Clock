@@ -1,0 +1,57 @@
+.event-post {
+
+    font-family: "Yaldevi SemiBold";
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 11px;
+    @include large {
+        font-size: 16px;
+     }
+    h1{
+        text-align: center;
+        margin-bottom: 10%;
+        @include large {
+               text-align: initial;
+               margin-bottom: 1%;
+            }
+        }
+    
+   line-height: 25px;
+   input {
+       width: 100%;
+       border: none;
+       background-color: #eee;
+       height: 30px;
+    }
+
+   textarea {
+        width: 100%;
+        border: none;
+        background-color: #eee;
+        height: 150px;
+   }
+
+    &__button {
+
+        display: flex;
+        justify-content: center;
+        @include large {
+            display: flex;
+            justify-content: end;
+         }
+
+        input {
+            background-color: $lighter-blue;
+            margin-top: 20px;
+            border: none;text-shadow: 0 0 0.2em black,0 0 0.2em black;
+            text-shadow: 0 0 0.2em black,0 0 0.2em black;
+            color: $cream;
+            font-weight: bold;
+            width: 100px;
+            border-radius: 3px;
+            
+        }
+        
+    }
+   
+}
